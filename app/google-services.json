@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562170429772",
+    "project_id": "potapp-829ae",
+    "storage_bucket": "potapp-829ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562170429772:android:bc90cb8aeafde4e6740fe9",
+        "android_client_info": {
+          "package_name": "com.example.potapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562170429772-bmbajv0cjueg3ovs66s98k9nesihko58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh2ItM9DEglvAplG0pBnMqv5M_2hrKKmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562170429772-bmbajv0cjueg3ovs66s98k9nesihko58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

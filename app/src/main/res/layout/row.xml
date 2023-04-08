@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@drawable/round_shape"
+    tools:ignore="MissingClass">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/round_shape"
+            android:src="@drawable/cramps"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Cramps"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/imageview2"
+            app:layout_constraintTop_toBottomOf="@+id/imageview2"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

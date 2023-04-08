@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Show_Symptoms">
+
+    <TextView
+        android:id="@+id/sympttview"
+        android:layout_width="261dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <TextView
+        android:id="@+id/symptt2view"
+        android:layout_width="261dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toBottomOf="@+id/sympttview"
+        android:paddingLeft="10dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <TextView
+        android:id="@+id/symptt3view"
+        android:layout_width="261dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        app:layout_constraintTop_toBottomOf="@+id/symptt2view"
+        android:paddingLeft="10dp"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="#FDD835"
+        android:fontFamily="sans-serif-black"
+        android:text="Symptom Logs"
+        android:textColorHighlight="#FDD835"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="78dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="104dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:background="@drawable/pin"-->
+<!--        tools:srcCompat="@tools:sample/avatars" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
